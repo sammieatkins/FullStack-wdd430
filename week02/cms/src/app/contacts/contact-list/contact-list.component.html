@@ -6,19 +6,19 @@
               <button class="btn btn-primary">Create New Contact</button>
             </div>
           
-        <a 
-            href="#"
-            class="list-group-item clearfix"
-            *ngFor="let contact of contacts"
-        >
-            <div class="contact-item">
-                <h2 class="list-group-item-heading">{{ contact.fullName }}</h2>
-                <img [src]="contact.imageUrl" alt="{{ contact.fullName }}" class="contact-image">
-            </div>
-        </a>
-          </div>
+            <a 
+                href="#"
+                class="list-group-item clearfix"
+                *ngFor="let contact of contacts"
+            >
+                <div class="contact-item">
+                    <h2 class="list-group-item-heading">{{ contact.fullName }}</h2>
+                    <img [src]="contact.imageUrl" alt="{{ contact.fullName }}" class="contact-image">
+                </div>
+            </a>
+        </div>
     </div>
     <div class="col-md-4">
-        <h2>contact detail goes here</h2>
+        <cms-contact-detail></cms-contact-detail>
     </div>
 </div>

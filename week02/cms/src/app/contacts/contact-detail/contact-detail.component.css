@@ -1,0 +1,10 @@
+.panel-heading {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .panel-heading button {
+    margin-left: 10px;
+  }
+  
