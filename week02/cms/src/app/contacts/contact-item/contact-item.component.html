@@ -1,0 +1,9 @@
+<a 
+href="#"
+class="list-group-item clearfix"
+(click)="onSelected()">
+    <div class="contact-item">
+        <h2 class="list-group-item-heading">{{ contact.fullName }}</h2>
+        <img [src]="contact.imageUrl" alt="{{ contact.fullName }}" class="contact-image">
+    </div>
+</a>

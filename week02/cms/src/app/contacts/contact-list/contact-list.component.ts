@@ -5,7 +5,7 @@ import { ContactDetailComponent } from '../contact-detail/contact-detail.compone
 
 @Component({
   selector: 'cms-contact-list',
-  imports: [CommonModule, ContactDetailComponent],
+  imports: [CommonModule],
   templateUrl: './contact-list.component.html',
   styleUrl: './contact-list.component.css'
 })
